@@ -1,0 +1,2 @@
+
+acao_desenho();

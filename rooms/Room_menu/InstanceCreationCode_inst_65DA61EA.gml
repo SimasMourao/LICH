@@ -1,0 +1,3 @@
+acao = function(){
+	sair = true;
+}

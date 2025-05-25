@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_entidade",
+  "%Name":"obj_desenho_menu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_entidade",
+  "name":"obj_desenho_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"inimgo",
-    "path":"folders/Objects/inimgo.yy",
+    "name":"menu",
+    "path":"folders/Objects/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_desenho_menu",
+    "path":"sprites/spr_desenho_menu/spr_desenho_menu.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

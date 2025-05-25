@@ -12,5 +12,7 @@ if(mouse_check_button_released(mb_left)){
 	image_xscale = 1;
 	image_yscale = 1;
 	
-	instance_create_layer(x, y, "Instances", obj_bandeira);
+	if(room == Room_jogo && !place_meeting(x, y, obj_wall)){
+		instance_create_layer(x, y, "Instances", obj_bandeira);
+	}
 }

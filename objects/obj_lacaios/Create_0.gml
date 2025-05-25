@@ -1,2 +1,2 @@
 alvo = noone;
-spd = .4;
+spd = .35;

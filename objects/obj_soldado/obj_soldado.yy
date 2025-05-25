@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_entidade",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_soldado",
+  "eventList":[],
   "managed":true,
-  "name":"obj_entidade",
+  "name":"obj_soldado",
   "overriddenProperties":[],
   "parent":{
     "name":"inimgo",
     "path":"folders/Objects/inimgo.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_entidade",
+    "path":"objects/obj_entidade/obj_entidade.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_esqueleto_1",
+    "path":"sprites/spr_esqueleto_1/spr_esqueleto_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

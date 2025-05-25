@@ -1,0 +1,3 @@
+if(jogar == false){
+	acao();
+}
