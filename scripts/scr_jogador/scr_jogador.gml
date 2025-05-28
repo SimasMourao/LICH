@@ -34,15 +34,20 @@ y += lengy
 
 }
 	
+	
 function invocar_lacaios(distancia_jogador, lacaio, qtd_lacaios, _x, _y){
 	var angulo_passo = 360 / qtd_lacaios;
 	
-	for(var i = 0; i < qtd_lacaios; i++){
-		var angulo = i * angulo_passo;
+	
+		for(var i = 0; i < qtd_lacaios; i++){
+			var angulo = i * angulo_passo;
 		
-		var invoq_x = x + lengthdir_x(distancia_jogador, angulo);
-		var invoq_y = y + lengthdir_y(distancia_jogador, angulo);
-		
-		instance_create_layer(invoq_x, invoq_y, "Instances", lacaio);
-	}
+			var invoq_x = x + lengthdir_x(distancia_jogador, angulo);
+			var invoq_y = y + lengthdir_y(distancia_jogador, angulo);
+			
+			instance_create_layer(invoq_x, invoq_y, "Instances", obj_invoq_efeito);
+			
+			
+			
+		}
 }
