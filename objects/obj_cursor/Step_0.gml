@@ -12,10 +12,17 @@ if(mouse_check_button_released(mb_left)){
 	image_xscale = 1;
 	image_yscale = 1;
 	
-	if(room == Room_jogo && !place_meeting(x, y, obj_wall)){
-		var bandeira = instance_create_layer(x, y, "Instances", obj_bandeira);
-		bandeira.animando_escala = true;
+	if (room == Room_jogo && !place_meeting(x, y, obj_wall) && !place_meeting(x, y, obj_bandeira)) {
+		
+		if(instance_number(obj_bandeira) >= 3){
+			var antiga = instance_find(obj_bandeira, 0);
+			instance_destroy(antiga);
+		}
+		
+	    var bandeira = instance_create_layer(x, y, "Instances", obj_bandeira);
+	    bandeira.animando_escala = true;
 	}
+
 }
 
 

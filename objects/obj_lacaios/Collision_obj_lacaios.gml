@@ -1,1 +1,1 @@
-empurrar_outro(.15);
+empurrar_outro(.5);

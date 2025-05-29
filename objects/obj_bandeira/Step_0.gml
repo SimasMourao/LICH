@@ -1,14 +1,10 @@
 depth = -y;
 
-if(place_meeting(x, y, obj_lacaios) || place_meeting(x, y, obj_bandeira)){
+
+if(place_meeting(x, y, obj_lacaios)){
 	instance_destroy();
 }
 
-if(mouse_check_button_released(mb_left)){
-	if(room == Room_jogo && !place_meeting(x, y, obj_wall)){
-		instance_create_layer(x, y, "Instances", obj_bandeira);
-	}
-}
 
 if(position_meeting(mouse_x, mouse_y, id)){
 	if(mouse_check_button_released(mb_right)){
@@ -16,13 +12,13 @@ if(position_meeting(mouse_x, mouse_y, id)){
 	}
 }
 
-if(animando_escala){
-	image_xscale = lerp(image_xscale, 1.2, .5);
-	image_yscale = lerp(image_yscale, 1.2, .5);
-}
+if (animando_escala) {
+    image_xscale = lerp(image_xscale, 1.2, 0.2); // Reduz o fator para suavizar e dar tempo de interpolar
+    image_yscale = lerp(image_yscale, 1.2, 0.2);
 
-if(abs(image_xscale -1.2) < 0.01 && abs(image_yscale -1.2) < 0.01){
-	image_xscale = 1;
-	image_yscale = 1;
-	animando_escala = false
+    if (image_xscale >= 1.19 && image_yscale >= 1.19) {
+        image_xscale = 1;
+        image_yscale = 1;
+        animando_escala = false;
+    }
 }
