@@ -6,6 +6,7 @@ function empurrar_outro(empurrar){
 		var dir = point_direction(other.x, other.y, x, y);
 		var lengx = lengthdir_x(empurrar, dir);
 		var lengy = lengthdir_y(empurrar, dir);
+		
 	if(place_meeting(x + lengx, y, obj_wall)){
 		while !place_meeting(x + sign(lengx), y, obj_wall){
 		x += sign(lengx)

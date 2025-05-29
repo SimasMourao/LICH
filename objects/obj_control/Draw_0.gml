@@ -1,0 +1,1 @@
+//draw_text(60, 40, string(num_inst));

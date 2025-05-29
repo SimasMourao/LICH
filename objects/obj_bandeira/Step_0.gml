@@ -15,3 +15,14 @@ if(position_meeting(mouse_x, mouse_y, id)){
 		instance_destroy();
 	}
 }
+
+if(animando_escala){
+	image_xscale = lerp(image_xscale, 1.2, .5);
+	image_yscale = lerp(image_yscale, 1.2, .5);
+}
+
+if(abs(image_xscale -1.2) < 0.01 && abs(image_yscale -1.2) < 0.01){
+	image_xscale = 1;
+	image_yscale = 1;
+	animando_escala = false
+}

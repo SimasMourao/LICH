@@ -13,7 +13,8 @@ if(mouse_check_button_released(mb_left)){
 	image_yscale = 1;
 	
 	if(room == Room_jogo && !place_meeting(x, y, obj_wall)){
-		instance_create_layer(x, y, "Instances", obj_bandeira);
+		var bandeira = instance_create_layer(x, y, "Instances", obj_bandeira);
+		bandeira.animando_escala = true;
 	}
 }
 
