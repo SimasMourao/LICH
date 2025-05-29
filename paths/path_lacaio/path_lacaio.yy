@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"path_lacaio",
+  "closed":false,
+  "kind":0,
+  "name":"path_lacaio",
+  "parent":{
+    "name":"lacaio",
+    "path":"folders/Paths/lacaio.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

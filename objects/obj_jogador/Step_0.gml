@@ -9,6 +9,6 @@ if(keyboard_check_pressed(vk_space) && nivel < 9){
 
 if(keyboard_check_released(ord("F"))){
 
-invocar_lacaios(32, obj_lacaios, cadaveres, x, y);
+invocar_lacaios(20, obj_lacaios, cadaveres, x, y);
 }
 

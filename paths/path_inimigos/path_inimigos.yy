@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"path_inimigos",
+  "closed":false,
+  "kind":0,
+  "name":"path_inimigos",
+  "parent":{
+    "name":"inimigos",
+    "path":"folders/Paths/inimigos.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

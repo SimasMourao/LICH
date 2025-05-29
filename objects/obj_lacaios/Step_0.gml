@@ -1,61 +1,26 @@
 depth = -y;
 
+alvo = noone;
+
 if(instance_exists(obj_bandeira)){
-	alvo = obj_bandeira;
-
-	var dir = point_direction(x, y, alvo.x, alvo.y);
-	var lengx = lengthdir_x(spd, dir);
-	var lengy = lengthdir_y(spd, dir)
-
-	if(place_meeting(x + lengx, y, obj_wall)){
-		while !place_meeting(x + sign(lengx), y, obj_wall){
-		x += sign(lengx)
-		}
-	
-		lengx = 0;
-	}
-
-	if(place_meeting(x, y + lengy, obj_wall)){
-		while !place_meeting(x, y + sign(lengy), obj_wall){
-		y += sign(lengy)
-		}
-	
-		lengy = 0;
-	}
-	
-	x += lengx;
-
-	y += lengy;
+	alvo = instance_nearest(x, y, obj_bandeira);
 }
+
+else if(instance_exists(obj_soldado)){
+	alvo = instance_nearest(x, y, obj_entidade);
+}
+
+
+if(alvo != noone){
+	//if(distance_to_object(alvo) >= 8 && !path_exists(caminho)){
+		mp_grid_path(grid, caminho, x, y, alvo.x, alvo.y, true);
+		
+		if(path_get_length(caminho) > 0){
+			path_start(caminho, spd, path_action_stop, false);
+		}
+	}
+//}
 
 else{
-	if(instance_exists(obj_soldado)){
-		alvo = obj_soldado;
-
-
-		var dir = point_direction(x, y, alvo.x, alvo.y);
-		var lengx = lengthdir_x(spd, dir);
-		var lengy = lengthdir_y(spd, dir)
-
-		if(place_meeting(x + lengx, y, obj_wall)){
-			while !place_meeting(x + sign(lengx), y, obj_wall){
-			x += sign(lengx)
-			}
-	
-			lengx = 0;
-		}
-
-		if(place_meeting(x, y + lengy, obj_wall)){
-			while !place_meeting(x, y + sign(lengy), obj_wall){
-			y += sign(lengy)
-			}
-	
-			lengy = 0;
-		}
-	
-		x += lengx;
-
-		y += lengy;
-	}
+	exit;
 }
-

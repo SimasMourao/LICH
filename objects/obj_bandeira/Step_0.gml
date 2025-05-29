@@ -10,6 +10,8 @@ if(mouse_check_button_released(mb_left)){
 	}
 }
 
-if(point){
-	
+if(position_meeting(mouse_x, mouse_y, id)){
+	if(mouse_check_button_released(mb_right)){
+		instance_destroy();
+	}
 }

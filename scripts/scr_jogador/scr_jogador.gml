@@ -45,9 +45,29 @@ function invocar_lacaios(distancia_jogador, lacaio, qtd_lacaios, _x, _y){
 			var invoq_x = x + lengthdir_x(distancia_jogador, angulo);
 			var invoq_y = y + lengthdir_y(distancia_jogador, angulo);
 			
-			instance_create_layer(invoq_x, invoq_y, "Instances", obj_invoq_efeito);
+			var valido = true;
 			
+			if(place_meeting(invoq_x, invoq_y, obj_wall)){
+				valido = false
+				var tent = 10;
+				
+				for(var j = 0; j <= tent; j++){
+					var distanc = j * 4;
+					var novo_x = invoq_x + random_range(-distanc, distanc);	
+					var novo_y = invoq_y + random_range(-distanc, distanc);			
+					
+					if(!place_meeting(novo_x, novo_y, obj_wall)){
+						invoq_x = novo_x;
+						invoq_y = novo_y;
+						valido = true;
+						break;
+					}
+				}
 			
+			}
 			
+			if(valido){
+				instance_create_layer(invoq_x, invoq_y, "Instances", obj_invoq_efeito);	
+			}
 		}
 }
