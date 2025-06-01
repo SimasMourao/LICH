@@ -1,2 +1,9 @@
 global.pause = false;
-global.decisao = false;
+
+global.lacaios_map = {
+	"zumbi": [],
+	"fantasma": [],
+	"esqueleto": []
+}
+
+global.lacaio_selec = "zumbi"; // ou outro lacaio padrão

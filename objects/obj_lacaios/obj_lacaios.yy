@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_zumbi",
-    "path":"sprites/spr_zumbi/spr_zumbi.yy",
+    "name":"spr_esqueleto",
+    "path":"sprites/spr_esqueleto/spr_esqueleto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

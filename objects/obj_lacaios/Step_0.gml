@@ -1,4 +1,7 @@
 depth = -y;
+
+
+
 if (!instance_exists(alvo)) {
     alvo = noone;
     path_end();
@@ -25,4 +28,3 @@ if (!path_exists(caminho) || point_distance(x, y, alvo.x, alvo.y) > 8) {
         }
     }
 }
-

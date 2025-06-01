@@ -1,9 +1,9 @@
 
-function criar_lacaio(_lacaio, _lacaio_anda, _lacaio_morre, _vida, _dano) constructor{
+function criar_lacaio(_nome, _lacaio, _veloc = 1, _vida = 1, _dano = 1) constructor{
 	static _id		=	0;
+	nome			=	_nome
 	lacaio			=	_lacaio;
-	lacaio_anda		=	_lacaio_anda;
-	lacaio_morre	=	_lacaio_morre;
+	veloc			=	_veloc
 	vida			=	_vida;
 	dano			=	_dano;
 }

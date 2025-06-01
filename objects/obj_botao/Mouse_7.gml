@@ -1,3 +1,1 @@
-if(jogar == false){
-	acao();
-}
+acao();

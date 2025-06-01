@@ -1,4 +1,21 @@
-function desenhar_lacaio(){
+function lacaios(){
+	var spr_lacaio = [spr_zumbi, spr_fantasma, spr_esqueleto];
+	var nome_lacaio = ["zumbi", "fantasma", "esqueleto"];
+	var vida = [5, 3, 9];
+	var dano = [1, 0, 3];
+	var velocid = [.35, .35, .36];
+	
+	for(var i = 0; i < array_length(nome_lacaio); i++){
+		var nome = string(nome_lacaio[i]);
+		var lacaio = spr_lacaio[i];
+		var vida_lacaio = vida[i];
+		var dano_lacaio = dano[i];
+		var spd = velocid[i];
+		
+		var criar_lacaios = new criar_lacaio(nome, lacaio, spd, vida_lacaio, dano_lacaio);
+
+		array_push(variable_struct_get(global.lacaios_map, nome), criar_lacaios);
+	}
 
 }
 
@@ -10,7 +27,6 @@ function empurrar_outro(empurrar) {
     var destino_x = x + lengx;
     var destino_y = y + lengy;
 
-    // Só move se o destino estiver livre
     if (!place_meeting(destino_x, destino_y, obj_wall)) {
         x = destino_x;
         y = destino_y;
