@@ -27,11 +27,9 @@ if(place_meeting(x, y + lengy, colide)){
 	
 	lengy = 0;
 }
-	
+
 x += lengx;
 y += lengy
-
-
 }
 	
 	
@@ -52,7 +50,7 @@ function invocar_lacaios(distancia_jogador, lacaio, qtd_lacaios, _x, _y){
 				var tent = 10;
 				
 				for(var j = 0; j <= tent; j++){
-					var distanc = j * 4;
+					var distanc = j * 16;
 					var novo_x = invoq_x + random_range(-distanc, distanc);	
 					var novo_y = invoq_y + random_range(-distanc, distanc);			
 					

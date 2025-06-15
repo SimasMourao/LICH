@@ -7,3 +7,5 @@ global.lacaios_map = {
 }
 
 global.lacaio_selec = "zumbi"; // ou outro lacaio padrão
+
+global.inventario = false;

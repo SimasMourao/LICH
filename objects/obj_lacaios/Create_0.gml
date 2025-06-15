@@ -13,17 +13,19 @@ caminho = path_add();
 
 tipo = global.lacaio_selec;
 
-// Proteção contra erro
-if (!variable_struct_exists(global.lacaios_map, tipo)) {
-	tipo = "zumbi"; // fallback
-}
+#region // TIPOS DE LACAIOS
+	// Proteção contra erro
+	if (!variable_struct_exists(global.lacaios_map, tipo)) {
+		tipo = "zumbi"; // fallback
+	}
 
-// Usa o primeiro da lista (pode mudar se quiser)
-dados_array = variable_struct_get(global.lacaios_map, tipo);
-var dados = dados_array[0];
+	// Usa o primeiro da lista (pode mudar se quiser)
+	dados_array = variable_struct_get(global.lacaios_map, tipo);
+	var dados = dados_array[0];
 
-nome = dados.nome;
-sprite_index = dados.lacaio;
-vida = dados.vida;
-dano = dados.dano;
-spd  = dados.veloc;
+	nome = dados.nome;
+	sprite_index = dados.lacaio;
+	vida = dados.vida;
+	dano = dados.dano;
+	spd  = dados.veloc;
+#endregion

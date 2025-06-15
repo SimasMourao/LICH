@@ -1,12 +1,29 @@
-//draw_sprite_ext(spr_vida, 0, 50, 120, 2, 2, 0, c_white, 1);
-draw_sprite_ext(spr_vida_mold, 0, 50, 50, 3, 3, 0, c_white, 1);
-draw_sprite_ext(spr_vida, 0, 50, 50, 3, 3, 0, c_white, 1);
-draw_sprite_ext(spr_vida_mold_sklt, 0, 50, 50, 3, 3, 0, c_white, 1);
+draw_set_font(fnt_botao);
+if(global.inventario = false){
+	if(global.pause = false){
+	draw_sprite_ext(spr_moldura, 1, 50, 50, 2, 2, 0, c_white, 1);
 
-draw_sprite_ext(spr_livro_dos_mortos, image_index, 1316, 718, 3, 3, 0, c_white, 1);
+	draw_sprite_ext(spr_mold_vida, 0, 103, 50, 1, 1, 0, c_white, 1);
+	for(var i = 0; i < obj_jogador.vida_atual; i++){
+		draw_sprite_ext(spr_vida, 0, 73 + 1*i, 50, 1, 1, 0, c_white, 1);
+	}
 
-for(var i = 0; i < 4; i++){
-	draw_sprite_ext(spr_materiais, i, 1316, 620 - 35 * i, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(spr_mold_vida, 1, 103, 50, 1, 1, 0, c_white, 1);
+
+	draw_sprite_ext(spr_livro, 0, 1316, 700, -3, 3, 0, c_white, 1);
+	draw_sprite_ext(spr_livro, 1, 1310, 703, 3, 3, -45, c_white, 1);
+	draw_sprite_ext(spr_moldura_tecla, 0, 1285, 730, 1, 1, 0, c_white, 1);
+	draw_text_transformed(1285, 731,"E",image_xscale, image_yscale, 0);
+
+	for(var i = 0; i < 4; i++){
+	
+		draw_sprite_ext(spr_moldura, 0, 1316, 620 - 40 * i, 1, 1, 0, c_white, 1);
+	}
+
+	draw_text(80, 250, global.lacaio_selec);
+	}
 }
 
-draw_text(80, 250, global.lacaio_selec);
+if(global.pause){
+	draw_text_transformed(1300, 200, string(obj_control.num_inst), image_xscale, image_yscale, 0);
+}
