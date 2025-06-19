@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"acolito",
-    "path":"folders/Sprites/jogador/acolito.yy",
+    "name":"arquivar",
+    "path":"folders/Sprites/arquivar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"esqueleto",
-    "path":"folders/Sprites/lacaios/esqueleto.yy",
+    "name":"arquivar",
+    "path":"folders/Sprites/arquivar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

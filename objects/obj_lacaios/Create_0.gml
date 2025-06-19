@@ -1,7 +1,5 @@
 alvo = noone;
 
-image_xscale = .5;
-image_yscale = .5;
 
 grid_tamanho = 32;
 
@@ -14,6 +12,7 @@ caminho = path_add();
 tipo = global.lacaio_selec;
 
 #region // TIPOS DE LACAIOS
+
 	// Proteção contra erro
 	if (!variable_struct_exists(global.lacaios_map, tipo)) {
 		tipo = "zumbi"; // fallback
@@ -28,4 +27,5 @@ tipo = global.lacaio_selec;
 	vida = dados.vida;
 	dano = dados.dano;
 	spd  = dados.veloc;
+	
 #endregion
