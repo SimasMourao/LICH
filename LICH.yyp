@@ -53,6 +53,7 @@
   "name":"LICH",
   "resources":[
     {"id":{"name":"fnt_botao","path":"fonts/fnt_botao/fnt_botao.yy",},},
+    {"id":{"name":"fnt_pause","path":"fonts/fnt_pause/fnt_pause.yy",},},
     {"id":{"name":"obj_bandeira","path":"objects/obj_bandeira/obj_bandeira.yy",},},
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
@@ -71,7 +72,6 @@
     {"id":{"name":"path_inimigos","path":"paths/path_inimigos/path_inimigos.yy",},},
     {"id":{"name":"path_lacaio","path":"paths/path_lacaio/path_lacaio.yy",},},
     {"id":{"name":"Room_jogo","path":"rooms/Room_jogo/Room_jogo.yy",},},
-    {"id":{"name":"Room_menu","path":"rooms/Room_menu/Room_menu.yy",},},
     {"id":{"name":"scr_control","path":"scripts/scr_control/scr_control.yy",},},
     {"id":{"name":"scr_estruturas","path":"scripts/scr_estruturas/scr_estruturas.yy",},},
     {"id":{"name":"scr_globais","path":"scripts/scr_globais/scr_globais.yy",},},
@@ -115,7 +115,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room_jogo","path":"rooms/Room_jogo/Room_jogo.yy",},},
-    {"roomId":{"name":"Room_menu","path":"rooms/Room_menu/Room_menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

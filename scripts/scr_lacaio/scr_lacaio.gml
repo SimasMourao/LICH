@@ -1,9 +1,9 @@
 function lacaios(){
 	var spr_lacaio = [spr_zumbi, spr_fantasma, spr_esqueleto];
 	var nome_lacaio = ["zumbi", "fantasma", "esqueleto"];
-	var vida = [5, 3, 9];
+	var vida = [10, 3, 5];
 	var dano = [1, 0, 3];
-	var velocid = [.35, .35, .36];
+	var velocid = [.2, .75, .4];
 	
 	for(var i = 0; i < array_length(nome_lacaio); i++){
 		var nome = string(nome_lacaio[i]);

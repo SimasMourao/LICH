@@ -1,3 +1,0 @@
-acao = function(){
-	sair = true;
-}

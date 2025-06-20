@@ -9,8 +9,8 @@
   "name":"obj_bandeira",
   "overriddenProperties":[],
   "parent":{
-    "name":"control",
-    "path":"folders/Objects/control.yy",
+    "name":"jogador",
+    "path":"folders/Objects/jogador.yy",
   },
   "parentObjectId":null,
   "persistent":false,

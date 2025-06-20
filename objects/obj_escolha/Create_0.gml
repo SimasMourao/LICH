@@ -6,5 +6,5 @@ tempo_atual = timer;
 
 acao = function(){}
 
-
+tipo = 1;
 
