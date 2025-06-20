@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_soldado",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_soldado",
   "overriddenProperties":[],
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_esqueleto_1",
-    "path":"sprites/spr_esqueleto_1/spr_esqueleto_1.yy",
+    "name":"spr_soldado",
+    "path":"sprites/spr_soldado/spr_soldado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

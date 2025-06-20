@@ -1,5 +1,5 @@
 alvo = noone;
-
+visivel = false;
 
 grid_tamanho = 32;
 

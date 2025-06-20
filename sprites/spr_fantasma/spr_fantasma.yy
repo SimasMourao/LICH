@@ -20,7 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"fbd4fcf4-6b8c-49a0-baca-b52f9540c1fb","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"fbd4fcf4-6b8c-49a0-baca-b52f9540c1fb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"015372cc-52c6-491f-bce6-ea4871c12b26","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"015372cc-52c6-491f-bce6-ea4871c12b26","opacity":61.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"015372cc-52c6-491f-bce6-ea4871c12b26","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"015372cc-52c6-491f-bce6-ea4871c12b26","opacity":45.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_fantasma",
   "nineSlice":{
