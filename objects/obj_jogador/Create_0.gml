@@ -1,5 +1,3 @@
-
-
 vida_total = 60;
 vida_atual = vida_total;
 spd = .75;

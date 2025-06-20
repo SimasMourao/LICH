@@ -19,7 +19,7 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fb3ee732-b4b5-4890-a00e-eeff0bcb3783","blendMode":0,"displayName":"default","isLocked":false,"name":"fb3ee732-b4b5-4890-a00e-eeff0bcb3783","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fb3ee732-b4b5-4890-a00e-eeff0bcb3783","blendMode":0,"displayName":"default","isLocked":false,"name":"fb3ee732-b4b5-4890-a00e-eeff0bcb3783","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_sombra",
   "nineSlice":null,

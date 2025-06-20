@@ -2,8 +2,8 @@ function lacaios(){
 	var spr_lacaio = [spr_zumbi, spr_fantasma, spr_esqueleto];
 	var nome_lacaio = ["zumbi", "fantasma", "esqueleto"];
 	var vida = [10, 3, 5];
-	var dano = [1, 0, 3];
-	var velocid = [.2, .75, .4];
+	var dano = [2.5, 0, 5];
+	var velocid = [.3, .75, .5];
 	
 	for(var i = 0; i < array_length(nome_lacaio); i++){
 		var nome = string(nome_lacaio[i]);
@@ -27,7 +27,7 @@ function empurrar_outro(empurrar) {
     var destino_x = x + lengx;
     var destino_y = y + lengy;
 
-    if (!place_meeting(destino_x, destino_y, obj_wall)) {
+    if (!place_meeting(destino_x, destino_y, obj_wall) || nome == "fantasma") {
         x = destino_x;
         y = destino_y;
     }

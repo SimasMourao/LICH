@@ -1,3 +1,6 @@
+image_xscale = 0;
+image_yscale = 0;
+
 jogar = false;
 sair = false;
 

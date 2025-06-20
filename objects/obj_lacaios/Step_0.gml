@@ -14,8 +14,15 @@ if (alvo == noone) {
 	
 	else if (instance_exists(obj_soldado)) {
 		var possivel_alvo = instance_nearest(x, y, obj_soldado);
-		if(!collision_line(x, y, possivel_alvo.x, possivel_alvo.y, obj_wall, false, true)){
+		
+		if(nome == "fantasma"){
 			alvo = possivel_alvo;
+		}
+		
+		else{
+			if(!collision_line(x, y, possivel_alvo.x, possivel_alvo.y, obj_wall, false, true)){
+				alvo = possivel_alvo;
+			}
 		}
 	} 
 	

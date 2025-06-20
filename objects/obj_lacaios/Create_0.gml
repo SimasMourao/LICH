@@ -1,14 +1,3 @@
-alvo = noone;
-visivel = false;
-
-grid_tamanho = 32;
-
-grid = mp_grid_create(0, 0, room_width div grid_tamanho, room_height div grid_tamanho, grid_tamanho, grid_tamanho);
-
-mp_grid_add_instances(grid, obj_wall, false);
-
-caminho = path_add();
-
 tipo = global.lacaio_selec;
 
 #region // TIPOS DE LACAIOS
@@ -29,3 +18,17 @@ tipo = global.lacaio_selec;
 	spd  = dados.veloc;
 	
 #endregion
+
+alvo = noone;
+visivel = false;
+
+grid_tamanho = 32;
+
+grid = mp_grid_create(0, 0, room_width div grid_tamanho, room_height div grid_tamanho, grid_tamanho, grid_tamanho);
+
+if(nome != "fantasma"){
+	mp_grid_add_instances(grid, obj_wall, false);
+}
+
+caminho = path_add();
+

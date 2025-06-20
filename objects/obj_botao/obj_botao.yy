@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_escolha",
+  "%Name":"obj_botao",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_escolha",
+  "name":"obj_botao",
   "overriddenProperties":[],
   "parent":{
     "name":"menu",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_botao",
-    "path":"sprites/spr_botao/spr_botao.yy",
+    "name":"spr_botao_escolha",
+    "path":"sprites/spr_botao_escolha/spr_botao_escolha.yy",
   },
   "spriteMaskId":null,
   "visible":true,
