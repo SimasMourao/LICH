@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_soldado",
-    "path":"sprites/spr_soldado/spr_soldado.yy",
+    "name":"spr_cavaleiro",
+    "path":"sprites/spr_cavaleiro/spr_cavaleiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,

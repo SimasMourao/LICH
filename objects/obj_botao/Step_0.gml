@@ -23,6 +23,16 @@ switch(tipo){
 			global.lacaio_selec = "fantasma";
 		}
 		break;
+	case 4:
+		acao = function(){
+			global.lacaio_selec = "mumia";
+		}
+		break;
+	case 5:
+		acao = function(){
+			global.lacaio_selec = "golem zumbi";
+		}
+		break;
 	case 0:
 		acao = function(){
 			global.lacaio_selec = "zumbi";

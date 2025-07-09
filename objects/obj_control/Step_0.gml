@@ -37,6 +37,12 @@ if(global.inventario && !botao_criado){
 	botao = instance_create_layer(obj_jogador.x - 100, obj_jogador.y + 50, "Control", obj_botao);
 	botao.tipo = 3;
 	
+	botao = instance_create_layer(obj_jogador.x - 100, obj_jogador.y + 100, "Control", obj_botao);
+	botao.tipo = 4;
+
+	botao = instance_create_layer(obj_jogador.x - 100, obj_jogador.y + 150, "Control", obj_botao);
+	botao.tipo = 5;
+	
 	botao_criado = true;
 }
 
