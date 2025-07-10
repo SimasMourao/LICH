@@ -4,3 +4,4 @@ spd = .75;
 qtd_lacaios = 5;
 nivel = 1;
 cadaveres = 1;
+nome = "jogador";

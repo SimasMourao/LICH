@@ -4,7 +4,7 @@ dano = 0;
 spd = .75;
 alvo_inimigo = noone;
 visivel = noone;
-
+nome = "entidade";
 
 grid_tamanho = 32;
 
@@ -17,6 +17,10 @@ caminho = path_add();
 destroi_soldado = function(){
 	if(place_meeting(x, y, obj_lacaios)){
 		instance_destroy();
+		instance_destroy(obj_armas);
 	}
 }
 
+if(object_exists(obj_soldado)){
+	instance_create_layer(x -3, y, "Instances", obj_armas);
+}

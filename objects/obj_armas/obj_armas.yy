@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_jogador",
+  "%Name":"obj_armas",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_soldado","path":"objects/obj_soldado/obj_soldado.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_jogador",
+  "name":"obj_armas",
   "overriddenProperties":[],
   "parent":{
-    "name":"jogador",
-    "path":"folders/Objects/jogador.yy",
+    "name":"inimgo",
+    "path":"folders/Objects/inimgo.yy",
   },
-  "parentObjectId":{
-    "name":"obj_entidade",
-    "path":"objects/obj_entidade/obj_entidade.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_acolito",
-    "path":"sprites/spr_acolito/spr_acolito.yy",
+    "name":"spr_armas",
+    "path":"sprites/spr_armas/spr_armas.yy",
   },
   "spriteMaskId":null,
   "visible":true,

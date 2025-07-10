@@ -30,5 +30,5 @@ function empurrar_outro(empurrar) {
     if (!place_meeting(destino_x, destino_y, obj_wall) || nome == "fantasma") {
         x = destino_x;
         y = destino_y;
-    }
+   }
 }

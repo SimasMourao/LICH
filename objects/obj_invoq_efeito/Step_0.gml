@@ -10,7 +10,7 @@ if (image_index > 6) {
 
 
 if(image_index == 6){
-	instance_create_layer(x, y, "Instances", obj_lacaios);
+	instance_create_layer(x, y - 10, "Instances", obj_lacaios);
 }
 
 if(image_index >= 9){

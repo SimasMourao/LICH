@@ -1,0 +1,1 @@
+empurrar_outro(.7);
