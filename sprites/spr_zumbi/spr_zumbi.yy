@@ -19,7 +19,7 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b85189d1-da51-49a8-9507-fd08ff8e8639","blendMode":0,"displayName":"default","isLocked":false,"name":"b85189d1-da51-49a8-9507-fd08ff8e8639","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"90002359-777d-48b4-8a69-0805f9412fd6","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"90002359-777d-48b4-8a69-0805f9412fd6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"3774d561-09a5-403e-9e6a-cddfde19b0be","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"3774d561-09a5-403e-9e6a-cddfde19b0be","opacity":36.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_zumbi",

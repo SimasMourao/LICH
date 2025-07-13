@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"cavaleiro_morte",
-    "path":"folders/Sprites/lacaios/cavaleiro_morte.yy",
+    "path":"folders/Sprites/lacaios/especiais/cavaleiro_morte.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

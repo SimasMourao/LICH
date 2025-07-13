@@ -5,7 +5,9 @@ global.lacaios_map = {
 	"fantasma": [],
 	"esqueleto": [],
 	 "mumia": [], 
-	 "golem zumbi": []
+	 "golem zumbi": [],
+	 "cavaleiro da morte": [],
+	 "demonio": []
 }
 
 global.lacaio_selec = "zumbi"; // ou outro lacaio padrão

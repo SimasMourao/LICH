@@ -2,7 +2,7 @@ draw_set_font(fnt_botao);
 	if(global.inventario = false){
 		if(global.pause = false){
 		draw_sprite_ext(spr_moldura, 1, 50, 50, 2, 2, 0, c_white, 1);
-
+		draw_sprite_ext(spr_moldura, 2, 50, 120, 1.5, 1.5, 0, c_white, 1);
 		draw_sprite_ext(spr_mold_vida, 0, 103, 50, 1, 1, 0, c_white, 1);
 		for(var i = 0; i < obj_jogador.vida_atual; i++){
 			draw_sprite_ext(spr_vida, 0, 73 + 1*i, 50, 1, 1, 0, c_white, 1);

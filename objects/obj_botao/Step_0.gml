@@ -33,6 +33,16 @@ switch(tipo){
 			global.lacaio_selec = "golem zumbi";
 		}
 		break;
+	case 6:
+		acao = function(){
+			global.lacaio_selec = "cavaleiro da morte";
+		}
+		break;
+	case 7:
+		acao = function(){
+			global.lacaio_selec = "demonio";
+		}
+		break;
 	case 0:
 		acao = function(){
 			global.lacaio_selec = "zumbi";

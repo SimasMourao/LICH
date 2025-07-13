@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":3,
   "parent":{
-    "name":"GUI",
-    "path":"folders/Sprites/GUI.yy",
+    "name":"vida",
+    "path":"folders/Sprites/GUI/inventario/vida.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
