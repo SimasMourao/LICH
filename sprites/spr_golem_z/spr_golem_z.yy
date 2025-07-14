@@ -27,7 +27,7 @@
   "origin":9,
   "parent":{
     "name":"golem_z",
-    "path":"folders/Sprites/lacaios/especiais/golem_z.yy",
+    "path":"folders/Sprites/lacaios/ESPECIAIS/golem_z.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

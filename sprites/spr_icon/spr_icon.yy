@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"background",
-    "path":"folders/Sprites/tiles/background.yy",
+    "name":"arquivar",
+    "path":"folders/Sprites/arquivar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

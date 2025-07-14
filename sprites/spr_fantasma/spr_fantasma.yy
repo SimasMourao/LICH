@@ -26,9 +26,9 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fbd4fcf4-6b8c-49a0-baca-b52f9540c1fb","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"fbd4fcf4-6b8c-49a0-baca-b52f9540c1fb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"1ad317dd-17d0-4ff9-8016-e980e00e8c2d","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"1ad317dd-17d0-4ff9-8016-e980e00e8c2d","opacity":77.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"015372cc-52c6-491f-bce6-ea4871c12b26","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"015372cc-52c6-491f-bce6-ea4871c12b26","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fbd4fcf4-6b8c-49a0-baca-b52f9540c1fb","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"fbd4fcf4-6b8c-49a0-baca-b52f9540c1fb","opacity":73.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1ad317dd-17d0-4ff9-8016-e980e00e8c2d","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"1ad317dd-17d0-4ff9-8016-e980e00e8c2d","opacity":53.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"015372cc-52c6-491f-bce6-ea4871c12b26","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"015372cc-52c6-491f-bce6-ea4871c12b26","opacity":30.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"d06245f2-d228-42ac-9155-e421c70ed831","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"d06245f2-d228-42ac-9155-e421c70ed831","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_fantasma",

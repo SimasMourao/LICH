@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"demonio",
-    "path":"folders/Sprites/lacaios/especiais/demonio.yy",
+    "path":"folders/Sprites/lacaios/ESPECIAIS/demonio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
